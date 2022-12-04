@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Coda', cursive;
+}
+
+.container {
+  text-align: center;
+}
+
+.calculator{
+  width: 320px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #36454F;
+  padding: 10px 20px;
+}
+
+.display {
+  height: 100px;
+  background-color: #333;
+  color: #eee;
+  text-align: right;
+  border-radius: 15px;
+}
+
+.display > p {
+  font-size: 80px;
+  padding-right: 10px;
+}
+
+.functionKey {
+  color: #333;
+  background-color: #d3d3d3;
+}
+
+.mainKeys {
+  width: 100%;
+  position: relative;
+  font-size: 20px;
+}
+
+.keyFunctions,
+.keyNumbers,
+.zeroDecimalContainer{
+  width: 75%;
+}
+
+.sideKeys {
+  width: 25%;
+  float: right;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.key {
+  width: 75px;
+  padding-top: 25px;
+  height: 50px;
+  border-radius: 50%;
+  /* text-align: center; */
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.zeroDecimalContainer > .key:first-child {
+  width: 150px;
+  border-radius: 40px;
+}
+
+.number {
+  color: #eee;
+  background-color: #333;
+}
+
+.sideKeys > .key {
+  color: #eee;
+  background-color: #ff7e26;
+}
